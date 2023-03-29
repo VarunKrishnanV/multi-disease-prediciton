@@ -1,0 +1,316 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title> Disease Prediction </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+	<!-- CSS here -->
+	<link rel="stylesheet" href="../static/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../static/assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="../static/assets/css/slicknav.css">
+    <link rel="stylesheet" href="../static/assets/css/flaticon.css">
+    <link rel="stylesheet" href="../static/assets/css/gijgo.css">
+    <link rel="stylesheet" href="../static/assets/css/animate.min.css">
+    <link rel="stylesheet" href="../static/assets/css/animated-headline.css">
+	<link rel="stylesheet" href="../static/assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="../static/assets/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="../static/assets/css/themify-icons.css">
+	<link rel="stylesheet" href="../static/assets/css/slick.css">
+	<link rel="stylesheet" href="../static/assets/css/nice-select.css">
+	<link rel="stylesheet" href="../static/assets/css/style.css">
+
+	
+	
+</head>
+<body>
+    <!-- ? Preloader Start -->
+   <!-- <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="../static/assets/img/logo/loder.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Preloader Start -->
+<header>
+    <!--? Header Start -->
+    <div class="header-area">
+        <div class="main-header header-sticky">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <!-- Logo -->
+                    <div class="col-xl-2 col-lg-2 col-md-1">
+                        <div class="logo">
+                            <a href="index.html"><img src="../static/assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-10 col-lg-10 col-md-10">
+                        <div class="menu-main d-flex align-items-center justify-content-end">
+                            <!-- Main-menu -->
+                            <div class="main-menu f-right d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a href="/admin">Home</a></li>
+                                        <li><a href="/view_doc">Doctors</a></li>
+		 								 <li><a href="/view_data">Data</a></li>
+         									 <li><a href="/logout">Logout</a></li>
+                                        
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="header-right-btn f-right d-none d-lg-block ml-30">
+                                <a href="/register" class="btn header-btn">Register</a>
+                            </div>
+                        </div>
+                    </div>   
+                    <!-- Mobile Menu -->
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+</header>
+<main>
+    <!--? Hero Start -->
+    <div class="slider-area2">
+        <div class="slider-height2 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                <div class="col-xl-12">
+                    <div class="hero-cap hero-cap2 text-center">
+                        <h2>Diabets Prediction</h2>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+    <!--? About Start-->
+    
+    <!-- About  End-->
+    <!--? All startups Start -->
+   
+    <!--All startups End -->
+    <!--? Gallery Area Start -->
+    
+    <!-- Gallery Area End -->
+     <!--? Contact form Start -->
+	 <div class="row">
+	 <div class="col-md-2">
+	 </div>
+	 <div class="col-md-8">
+
+
+		<div class="row">
+
+				
+
+				<!-- Contact Form -->
+				
+			</div>
+			<div class="row">
+				<!-- Contact Form -->
+				<div class="col-lg-12">
+				<p></p>
+				<table>
+				
+				<tr>
+				<td>
+				<h4>Feature Extraction - Confusion Matrix</h4> 
+				</td>
+				</tr>
+				<tr>
+				<td>
+				
+						<img src="../static/graph/graph5.png" class="img-fluid">
+
+				</td>
+				</tr>
+				</table>
+				</div>
+				
+			</div>
+			<p></p>
+			<p></p>
+			<div class="row">
+				<!-- Contact Form -->
+				<div class="col-lg-12">
+				<h3>Decision Tree Boosting</h3>
+				
+				</div>
+			</div>
+			<div class="row">
+				<!-- Contact Form -->
+				<div class="col-lg-12">
+				<p></p>
+				<table>
+				<tr>
+				<td>
+				<h4>Training Accuracy of Decesion Tree Boosting Model is {{dtc_train_acc}}</h4>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<h4>Test Accuracy of Decesion Tree Boosting Model is {{dtc_test_acc}}</h4>
+				</td>
+				</tr>
+				
+				<tr>
+				<td>
+				<h4>Classification Report</h4> 
+				</td>
+				</tr>
+				<tr>
+				<td>
+						<table border="1" align="center" class="table table-striped thead-dark table-bordered table-hover">
+			<tr style="background-color:#B3E7FF; color:#000000;">
+						<th>&nbsp;</th>
+						<th>precision</th>
+						<th>recall</th>
+						<th>f1-score</th>
+						<th>support</th>
+						</tr>
+						<tr>
+						<td>0</td>
+						<td>0.80</td>
+						<td>0.77</td>
+						<td>0.78</td>
+						<td>117</td>
+						</tr>
+						<tr>
+						<td>1</td>
+						<td>0.52</td>
+						<td>0.54</td>
+						<td>0.56</td>
+						<td>52</td>
+						</tr>
+						<tr>
+						<td>accuracy</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>0.70</td>
+						<td>169</td>
+						</tr>
+						<tr>
+						<td>macro avg</td>
+						<td>0.66</td>
+						<td>0.66</td>
+						<td>0.66</td>
+						<td>169</td>
+						</tr>
+						<tr>
+						<td>weighted avg</td>
+						<td>0.71</td>
+						<td>0.70</td>
+						<td>0.71</td>
+						<td>169</td>
+						</tr>
+						</table>
+						
+				</td>
+				</tr>
+				</table>
+				</div>
+				
+			</div>
+			<div class="row">
+				<!-- Contact Form -->
+				<div class="col-lg-12">
+				
+				</div>
+			</div>
+			<p></p>
+			<p></p>
+			
+				
+			<div class="row">
+				<!-- Contact Form -->
+				<div class="col-lg-12">
+				
+				</div>
+			</div>
+			
+	
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-xl-9 col-lg-8">
+                            <div class="footer-copy-right">
+                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Diabets Prediction <a href="https://colorlib.com" target="_blank"></a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4">
+                            <!-- Footer Social -->
+                            <div class="footer-social f-right">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fas fa-globe"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
+    <!-- Scroll Up -->
+    <div id="back-top" >
+        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+
+    <!-- JS here -->
+
+    <script src="../static/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="../static/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../static/assets/js/popper.min.js"></script>
+    <script src="../static/assets/js/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="../static/assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="../static/assets/js/owl.carousel.min.js"></script>
+    <script src="../static/assets/js/slick.min.js"></script>
+    <!-- One Page, Animated-HeadLin -->
+    <script src="../static/assets/js/wow.min.js"></script>
+    <script src="../static/assets/js/animated.headline.js"></script>
+    <script src="../static/assets/js/jquery.magnific-popup.js"></script>
+
+    <!-- Date Picker -->
+    <script src="../static/assets/js/gijgo.min.js"></script>
+    <!-- Nice-select, sticky -->
+    <script src="../static/assets/js/jquery.nice-select.min.js"></script>
+    <script src="../static/assets/js/jquery.sticky.js"></script>
+    
+    <!-- counter , waypoint -->
+    <script src="../static/assets/js/jquery.counterup.min.js"></script>
+    <script src="../static/assets/js/waypoints.min.js"></script>
+    <script src="../static/assets/js/jquery.countdown.min.js"></script>
+    <!-- contact js -->
+    <script src="../static/assets/js/contact.js"></script>
+    <script src="../static/assets/js/jquery.form.js"></script>
+    <script src="../static/assets/js/jquery.validate.min.js"></script>
+    <script src="../static/assets/js/mail-script.js"></script>
+    <script src="../static/assets/js/jquery.ajaxchimp.min.js"></script>
+    
+    <!-- Jquery Plugins, main Jquery -->	
+    <script src="../static/assets/js/plugins.js"></script>
+    <script src="../static/assets/js/main.js"></script>
+    
+    </body>
+</html>
