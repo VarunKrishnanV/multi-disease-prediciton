@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+#pat-detail {
+  display: flex;
+  flex: row;
+  gap: 50px;
+}
 .white-bg {
   background: #ffffff;
 }
@@ -2073,6 +2078,7 @@ hr {
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .header-area .main-header {
     padding: 0px 30px;
+    background-color: #f9f9f9;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4637,7 +4643,8 @@ hr {
   margin-bottom: 20px;
 }
 .form-contact label {
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 12px;
 }
 .form-contact .form-group {
   margin-bottom: 30px;
@@ -4980,7 +4987,7 @@ sup,
 sub,
 u,
 del {
-  color: #1f2b7b;
+  color: rgb(0, 0, 0);
 }
 .typography h1,
 .typography h2,
