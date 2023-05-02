@@ -112,7 +112,8 @@ h4,
 h5,
 h6 {
   font-family: "Roboto", sans-serif;
-  color: #030431;
+  color: #c92700;
+
   margin-top: 0px;
   font-style: normal;
   font-weight: 500;
@@ -331,10 +332,10 @@ hr {
   color: #fff;
   display: inline-block;
   font-size: 16px;
-  background-size: 200%;
+  background-size: 150%;
   transition: 0.6s;
   box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.12);
-  background-image: linear-gradient(to left, #559af3, #1462f3, #559af3);
+  background-image: linear-gradient(to left, #c92700, #c92700, #c92700);
 }
 .btn i {
   color: #ffffff;
@@ -1963,7 +1964,7 @@ hr {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 22px;
-  color: #396cf0;
+  color: #c92700;
   text-transform: uppercase;
   display: inline-block;
   position: relative;
@@ -1993,7 +1994,7 @@ hr {
 .section-tittle h2 {
   font-size: 50px;
   display: block;
-  color: #030431;
+  color: #c92700;
   font-weight: 800;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2968,8 +2969,11 @@ hr {
   width: 46%;
 }
 .contact-form-main .from-left img {
-  width: 100%;
-  height: 837px;
+  position: absolute;
+  width: 483px;
+  height: 321px;
+  left: 84px;
+  top: 68px;
 }
 .contact-form-main .form-tittle {
   padding: 111px 51px 0px 67px;
@@ -2983,7 +2987,7 @@ hr {
   background: #fff;
 }
 .contact-form-main #contact-form {
-  padding: 61px 51px 115px 69px;
+  padding: 15px 51px 115px 69px;
   position: relative;
 }
 @media (max-width: 575px) {
@@ -3006,7 +3010,7 @@ hr {
   /* color: #112957; */
   font-weight: 500;
   text-transform: capitalize;
-  border-radius: 15px;
+  /* border-radius: 15px; */
   border-bottom: 2px solid #cfe2ed;
 }
 .contact-form-main #contact-form input::-moz-placeholder {
