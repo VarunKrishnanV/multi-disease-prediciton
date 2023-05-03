@@ -27,7 +27,7 @@
 */
 /*--------------- ---- Responsive --------------------------*/
 /*-------------   Color Variable  --------------*/
-@import url("https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800,900&display=swap");
 .white-bg {
   background: #ffffff;
 }
@@ -80,7 +80,7 @@
   color: #0f61ef !important;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -160,7 +160,7 @@
 
 /* 1. Theme default css */
 body {
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -171,7 +171,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #030431;
   margin-top: 0px;
   font-style: normal;
@@ -180,7 +180,7 @@ h6 {
 }
 
 p {
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #10285d;
   font-size: 16px;
   line-height: 30px;
@@ -253,7 +253,11 @@ button {
   outline: medium none;
 }
 
-button:focus, input:focus, input:focus, textarea, textarea:focus {
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
   outline: 0;
 }
 
@@ -335,7 +339,7 @@ hr {
 .overlay2::before {
   position: absolute;
   content: "";
-  background-color: #2E2200;
+  background-color: #2e2200;
   top: 0;
   left: 0;
   width: 100%;
@@ -419,7 +423,12 @@ hr {
   background-size: 200%;
   transition: 0.6s;
   box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.12);
-  background-image: linear-gradient(to left, rgb(85, 154, 243), rgb(20, 98, 243), rgb(85, 154, 243));
+  background-image: linear-gradient(
+    to left,
+    rgb(85, 154, 243),
+    rgb(20, 98, 243),
+    rgb(85, 154, 243)
+  );
 }
 .btn i {
   color: #ffffff;
@@ -437,7 +446,8 @@ hr {
   background-position: right;
 }
 
-.btn.focus, .btn:focus {
+.btn.focus,
+.btn:focus {
   outline: 0;
   box-shadow: none;
 }
@@ -465,7 +475,12 @@ hr {
   background-size: 200%;
   transition: 0.6s;
   box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.12);
-  background-image: linear-gradient(to left, rgb(158, 160, 175), rgb(122, 124, 138), rgb(158, 160, 175));
+  background-image: linear-gradient(
+    to left,
+    rgb(158, 160, 175),
+    rgb(122, 124, 138),
+    rgb(158, 160, 175)
+  );
 }
 .about-btn2 i {
   color: #ffffff;
@@ -598,7 +613,8 @@ hr {
 }
 
 /* scrollUp */
-#scrollUp, #back-top {
+#scrollUp,
+#back-top {
   background: #0f61ef;
   height: 50px;
   width: 50px;
@@ -614,11 +630,13 @@ hr {
   box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
 }
 @media (max-width: 575px) {
-  #scrollUp, #back-top {
+  #scrollUp,
+  #back-top {
     right: 16px;
   }
 }
-#scrollUp a i, #back-top a i {
+#scrollUp a i,
+#back-top a i {
   display: block;
   line-height: 50px;
 }
@@ -2509,7 +2527,7 @@ hr {
   transition: 0.3s;
   text-transform: capitalize;
   position: relative;
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-area .main-header .main-menu ul li a {
@@ -2676,7 +2694,7 @@ hr {
 }
 .slider-area .hero__caption span {
   font-size: 18px;
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   margin-bottom: 35px;
   text-transform: uppercase;
@@ -2751,7 +2769,7 @@ hr {
 .slider-area .hero__caption p {
   font-size: 18px;
   color: #212025;
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 50px;
   padding-right: 35px;
 }
@@ -2939,7 +2957,7 @@ hr {
 
 .about-details .about-details-cap h4 {
   font-size: 30px;
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   margin-bottom: 30px;
   color: #000a2d;
@@ -2974,7 +2992,11 @@ hr {
   }
 }
 .department_area .dept_main_info .dept_info {
-  background-image: -ms-linear-gradient(0deg, rgb(36, 192, 241) 0%, rgb(76, 154, 254) 100%);
+  background-image: -ms-linear-gradient(
+    0deg,
+    rgb(36, 192, 241) 0%,
+    rgb(76, 154, 254) 100%
+  );
   padding: 172px 103px 104px 111px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3002,7 +3024,7 @@ hr {
   line-height: 35px;
   color: #fff;
   font-weight: 600;
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 @media (max-width: 767px) {
   .department_area .dept_main_info .dept_info h3 {
@@ -3130,7 +3152,11 @@ hr {
   }
 }
 .department_area .depart_ment_tab .nav li a.active {
-  background-image: -ms-linear-gradient(0deg, rgb(36, 192, 241) 0%, rgb(76, 154, 254) 100%);
+  background-image: -ms-linear-gradient(
+    0deg,
+    rgb(36, 192, 241) 0%,
+    rgb(76, 154, 254) 100%
+  );
   color: #fff;
 }
 .department_area .depart_ment_tab .nav li a.active i {
@@ -3604,7 +3630,11 @@ hr {
   color: #fff;
 }
 @media (max-width: 575px) {
-  .testimonial-area .testimonial-caption .testimonial-founder .founder-text span {
+  .testimonial-area
+    .testimonial-caption
+    .testimonial-founder
+    .founder-text
+    span {
     font-size: 17px;
   }
 }
@@ -3637,7 +3667,7 @@ hr {
   color: #a5a5a5;
   font-size: 14px;
   font-weight: 300;
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   display: block;
   margin-bottom: 30px;
 }
@@ -3730,7 +3760,7 @@ hr {
 }
 .footer-area .footer-top .single-footer-caption .footer-tittle h4 {
   color: #fff;
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   margin-bottom: 38px;
   font-weight: 500;
@@ -3763,17 +3793,33 @@ hr {
   background: #1c242f;
   color: #fff;
 }
-.footer-area .footer-top .single-footer-caption .footer-form form input::-moz-placeholder {
+.footer-area
+  .footer-top
+  .single-footer-caption
+  .footer-form
+  form
+  input::-moz-placeholder {
   color: #9fa6bd;
   font-weight: 300;
   font-size: 14px;
 }
-.footer-area .footer-top .single-footer-caption .footer-form form input::placeholder {
+.footer-area
+  .footer-top
+  .single-footer-caption
+  .footer-form
+  form
+  input::placeholder {
   color: #9fa6bd;
   font-weight: 300;
   font-size: 14px;
 }
-.footer-area .footer-top .single-footer-caption .footer-form form .form-icon button {
+.footer-area
+  .footer-top
+  .single-footer-caption
+  .footer-form
+  form
+  .form-icon
+  button {
   position: absolute;
   top: 0px;
   right: 0;
@@ -3981,11 +4027,12 @@ hr {
 }
 
 .blog_area a {
-  color: "Muli", sans-serif !important;
+  color: "Roboto", sans-serif !important;
   text-decoration: none;
   transition: 0.4s;
 }
-.blog_area a:hover, .blog_area a :hover {
+.blog_area a:hover,
+.blog_area a :hover {
   background: -webkit-linear-gradient(131deg, #0f61ef 0%, #0f61ef 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -5001,7 +5048,8 @@ hr {
 .contact-info__icon {
   margin-right: 20px;
 }
-.contact-info__icon i, .contact-info__icon span {
+.contact-info__icon i,
+.contact-info__icon span {
   color: #8f9195;
   font-size: 27px;
 }
@@ -5151,7 +5199,7 @@ hr {
   color: #fff;
   font-weight: 900;
   margin-bottom: 0;
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: capitalize;
 }
 @media (max-width: 767px) {
@@ -5187,7 +5235,7 @@ hr {
 .popup_box h3 {
   text-align: center;
   font-size: 22px;
-  color: #1F1F1F;
+  color: #1f1f1f;
   margin-bottom: 46px;
 }
 .popup_box .boxed-btn3 {
@@ -5198,13 +5246,13 @@ hr {
   -webkit-tap-highlight-color: transparent;
   background-color: #fff;
   /* border-radius: 5px; */
-  border: solid 1px #E2E2E2;
+  border: solid 1px #e2e2e2;
   box-sizing: border-box;
   clear: both;
   cursor: pointer;
   display: block;
   float: left;
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   width: 100% !important;
   /* height: 42px; */
@@ -5302,7 +5350,7 @@ hr {
   touch-action: manipulation;
   width: 40px;
   height: 40px;
-  background: #4A3600;
+  background: #4a3600;
   text-align: center;
   line-height: 20px;
   position: absolute;
@@ -5322,7 +5370,7 @@ hr {
   z-index: 1042;
   overflow: hidden;
   position: fixed;
-  background: #4A3600;
+  background: #4a3600;
   opacity: 0.6;
 }
 
@@ -5347,7 +5395,11 @@ hr {
 }
 
 .overlay::before {
-  background-image: -ms-linear-gradient(170deg, rgba(34, 34, 34, 0) 0%, rgb(0, 0, 0) 100%);
+  background-image: -ms-linear-gradient(
+    170deg,
+    rgba(34, 34, 34, 0) 0%,
+    rgb(0, 0, 0) 100%
+  );
 }
 
 .sample-text-area {
@@ -6014,7 +6066,8 @@ del {
   border: 1px solid #f1f1f1;
 }
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6049,7 +6102,8 @@ del {
   border: 1px solid #f1f1f1;
 }
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../img/elements/success-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6088,7 +6142,8 @@ del {
   z-index: 3;
 }
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6123,7 +6178,8 @@ del {
   border: 1px solid #f1f1f1;
 }
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6158,7 +6214,8 @@ del {
   border: 1px solid #f1f1f1;
 }
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/success-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6197,7 +6254,8 @@ del {
   z-index: 3;
 }
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6308,4 +6366,4 @@ del {
 
 .switch-wrap {
   margin-bottom: 10px;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
